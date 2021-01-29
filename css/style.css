@@ -1452,8 +1452,39 @@ h3 {
 }
 
 .bg-color {
-  background-color: #B6464B;
   color: white;
+  background: linear-gradient(-45deg, #ee7752, #23a6d5, #B6464B, red);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 10s ease infinite;
+  animation: gradient 20s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .heading-section {
@@ -1468,7 +1499,7 @@ h3 {
 }
 
 .white {
-  color: grey;
+  color: black;
 }
 
 /* Section Area end */
@@ -2362,7 +2393,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_testmonial.scss */
 .testimonial_area {
-  background-image: url(../img/banner/testmonial.png);
+  background-image: url(../img/banner/testmonials.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
