@@ -295,6 +295,11 @@ h3 {
   padding-bottom: 120px;
 }
 
+.logo {
+  height: 30px;
+  width: auto;
+}
+
 /* line 214, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/theme-default.scss */
 .pt-120 {
   padding-top: 120px;
