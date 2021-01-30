@@ -2977,7 +2977,7 @@ h3 {
 
 /* line 68, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_project_details.scss */
 .project_details_area .social_links ul li:nth-child(2) a {
-  background: #1DA1F2;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
 /* line 71, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_project_details.scss */
@@ -5666,8 +5666,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 10, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_bradcam.scss */
 .bradcam_bg_4 {
-  background-image: url(../img/banner/details.png);
+  background-image: url(../img/banner/details.jpg);
 }
+
 .bradcam_bg_5 {
   background-image: url(../img/duco-pics/breadcrumbs/cup-consistent-optimized.jpg);
 }
@@ -9656,23 +9657,25 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
-
 /*Custom CSS*/
-.custom-mb-100{
+.custom-mb-100 {
   margin-bottom: 100px;
 }
-.custom-breadcrumb-link{
+
+.custom-breadcrumb-link {
   color: #B6464B;
   font-weight: bold;
   letter-spacing: 1px;
 }
-.custom-breadcrumb-link:hover{
+
+.custom-breadcrumb-link:hover {
   color: white;
 }
-.custom-breadcrumb-text{
+
+.custom-breadcrumb-text {
   font-weight: lighter;
 }
 
-.product_section_heading{
+.product_section_heading {
   color: #b6464b;
 }
