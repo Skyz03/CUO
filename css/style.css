@@ -9679,3 +9679,25 @@ h6 {
 .product_section_heading {
   color: #b6464b;
 }
+
+.custom-gallery-img{
+  background-color: gray;
+  position: relative; 
+  width: 100%;
+}
+.gallery-item .custom-gallery-img .hover{
+  content: "";
+  position: absolute;
+  top: 0px;
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.gallery-item .custom-gallery-img .hover:hover{
+  opacity: 1;
+}
+.gallery-item .custom-gallery-img .hover i{
+  font-size: 28px;
+  color: white;
+}
