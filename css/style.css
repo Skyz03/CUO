@@ -635,7 +635,7 @@ h3 {
 .section_title h3 {
   font-size: 50px;
   font-weight: 500;
-  color: #b6464b;
+  color: black;
   position: relative;
   z-index: 0;
   padding-bottom: 0;
@@ -907,7 +907,6 @@ h3 {
 /* line 17, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_header.scss */
 .header-area .main-header-area {
   background: #fff;
-  background: transparent;
   padding: 30px 150px;
 }
 
@@ -1170,7 +1169,7 @@ h3 {
 
 /* line 176, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: black;
   font-size: 15px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1295,7 +1294,6 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.96);
-  background: #2C2C2C;
 }
 
 @media (max-width: 767px) {
@@ -1454,11 +1452,12 @@ h3 {
 
 .big-bold {
   font-size: 50px;
+  color: black;
 }
 
 .bg-color {
-  color: white;
-  background: linear-gradient(-45deg, #ee7752, #23a6d5, #B6464B, red);
+  color: black;
+  background: white;
   background-size: 400% 400%;
   -webkit-animation: gradient 10s ease infinite;
   animation: gradient 20s ease infinite;
@@ -1503,11 +1502,23 @@ h3 {
   width: auto;
 }
 
-.white {
-  color: black;
+/* Section Area end */
+/* Section area additional style start*/
+.hover {
+  /* position: relative; */
+  color: red;
+  margin-bottom: 40px;
 }
 
-/* Section Area end */
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid;
+  padding: 20px;
+}
+
+/* Section area additional style start*/
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_bg_1 {
   background-image: url(../img/banner/banner_1.jpg);
@@ -1530,10 +1541,12 @@ h3 {
 
 /* line 20, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 900px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  position: relative;
+  top: 45px;
 }
 
 /* line 25, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
@@ -5558,6 +5571,12 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 }
 
 /* line 190, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_footer.scss */
+.footer {
+  color: #B6464B;
+  background: #B6464B;
+  background-color: #B6464B;
+}
+
 .footer .socail_links ul li a:hover {
   color: #fff !important;
   background: #FFE8C3;
@@ -5568,7 +5587,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 .footer .query_area .bottom_border {
   padding-top: 100px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #334A60;
+  border-bottom: 1px solid white;
 }
 
 /* line 205, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_footer.scss */
