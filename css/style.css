@@ -1518,6 +1518,19 @@ h3 {
   padding: 20px;
 }
 
+@media (max-width: 600px) {
+  .hover {
+    color: red;
+    margin-bottom: 40px;
+    text-align: center !important;
+  }
+
+  .center-text {
+    margin-bottom: 40px;
+    text-align: center !important;
+  }
+}
+
 /* Section area additional style start*/
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_bg_1 {
@@ -9699,12 +9712,13 @@ h6 {
   color: #b6464b;
 }
 
-.custom-gallery-img{
+.custom-gallery-img {
   background-color: gray;
-  position: relative; 
+  position: relative;
   width: 100%;
 }
-.gallery-item .custom-gallery-img .hover{
+
+.gallery-item .custom-gallery-img .hover {
   content: "";
   position: absolute;
   top: 0px;
@@ -9713,10 +9727,12 @@ h6 {
   height: 100%;
   opacity: 0;
 }
-.gallery-item .custom-gallery-img .hover:hover{
+
+.gallery-item .custom-gallery-img .hover:hover {
   opacity: 1;
 }
-.gallery-item .custom-gallery-img .hover i{
+
+.gallery-item .custom-gallery-img .hover i {
   font-size: 28px;
   color: white;
 }
