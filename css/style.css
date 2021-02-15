@@ -751,6 +751,10 @@ h3 {
   }
 }
 
+.active, .nav_btn:hover {
+  color: #FDAE5C !important;
+}
+
 @media (max-width: 767px) {
 
   /* line 4, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slick-nav.scss */
@@ -7958,8 +7962,9 @@ h6 {
 
 /* line 1089, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_elements.scss */
 .section-top-border {
-  padding: 50px 0;
+  padding: 50px 0 0;
   border-top: 1px dotted #eee;
+  margin: 0 50px;
 }
 
 /* line 1093, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_elements.scss */
