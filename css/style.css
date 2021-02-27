@@ -1521,7 +1521,7 @@ h3 {
 /* Section area additional style start*/
 .hover {
   /* position: relative; */
-  color: red;
+  color: #A91E3A;
   margin-bottom: 40px;
 }
 
@@ -1535,7 +1535,7 @@ h3 {
 
 @media (max-width: 600px) {
   .hover {
-    color: red;
+    color: #A91E3A;
     margin-bottom: 40px;
     text-align: center !important;
   }
@@ -4220,6 +4220,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 15px;
+    text-align: center;
   }
 }
 
@@ -4296,6 +4297,14 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   .creative_mind_area .creative_info .progressBars {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .creative_mind_area .creative_info .progressBars {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
   }
 }
 
@@ -4639,12 +4648,19 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 24, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_works.scss */
 .works_area .thumb img {
-  width: 100%;
+  width: 80%;
 }
 
 /* line 28, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_works.scss */
 .works_area .work_info {
   margin: 30px 0;
+}
+
+@media (max-width: 767px) {
+  .works_area .work_info {
+    margin: 30px 0;
+    text-align: center;
+  }
 }
 
 /* line 30, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_works.scss */

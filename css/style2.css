@@ -1,116 +1,133 @@
-.padupdown25{
- padding-top: 25px!Important;
- padding-bottom: 25px!Important;
- }
-
-.padupdown50{
- padding-top: 50px!Important;
- padding-bottom: 50px!Important;
- }
-
-.padding10
-{
-padding-top: 10px!Important;
-            }
-
-.nopadding{
- padding-top: 0px!Important;
- padding-bottom: 0px!Important;
+.padupdown25 {
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
 }
 
-
-.slider_area{
- padding-bottom: 25px!Important;
+.padupdown50 {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
-
-.works_area::before{
-  background:white!Important;
+.padding10 {
+  padding-top: 10px !important;
 }
 
-.Smallletter{
- padding-top:0px!Important;
- color: black!Important;
- text-align: center!Important;
- text-decoration: none!Important;
- text-transform: uppercase;
- font-style: normal!Important;
- font-size: 20px!Important;
- line-height:40px!Important;
+.nopadding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
-.Bigletter{
- color:#A91E3A!Important;
- text-align: center!Important;
- text-decoration: none!Important;
- text-transform: uppercase!Important;
- font-style: bold!Important;
- font-size: 65px!Important;
- line-height:40px!Important;
- font-weight: bold!Important;
+.slider_area {
+  padding-bottom: 25px !important;
 }
 
-.creative_mind_area{
- background-color:white!Important;
+.works_area::before {
+  background: white !important;
 }
 
+.Smallletter {
+  padding-top: 0px !important;
+  color: black !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-style: normal !important;
+  font-size: 20px !important;
+  line-height: 40px !important;
+}
 
+.Bigletter {
+  color: #A91E3A !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  font-style: bold !important;
+  font-size: 65px !important;
+  line-height: 40px !important;
+  font-weight: bold !important;
+}
+
+@media (max-width: 767px) {
+  .Bigletter {
+    color: #A91E3A !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    font-style: bold !important;
+    font-size: 47px !important;
+    line-height: 60px !important;
+    font-weight: bold !important;
+  }
+}
+
+.creative_mind_area {
+  background-color: white !important;
+}
 
 .footer-section {
-    background-color: #F7F7F7;
-    padding: 60px 0 50px;
+  background-color: #F7F7F7;
+  padding: 60px 0 50px;
 }
+
 .bg-with-black {
-    position: relative;
+  position: relative;
 }
+
 .footer-top-section {
-    margin: 0 0 47px;
+  margin: 0 0 47px;
 }
-.single-fta > img {
-    margin: 0 0 7px;
+
+.single-fta>img {
+  margin: 0 0 7px;
 }
+
 .single-fta ul.fta-list {
-    list-style: outside none none;
-    padding-left: 0;
+  list-style: outside none none;
+  padding-left: 0;
 }
+
 .single-fta ul.fta-list li, .single-fta ul.fta-list li a {
-    color: black;
-    display: block;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 36px;
+  color: black;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 36px;
 }
+
 .single-fta ul.fta-list {
-    list-style: outside none none;
-    padding-left: 0;
+  list-style: outside none none;
+  padding-left: 0;
 }
+
 .fta-title {
-    color: #A91E3A;
-    font-weight: 500;
-    letter-spacing: 0;
-    margin: 0 0 20px;
+  color: #A91E3A;
+  font-weight: 500;
+  letter-spacing: 0;
+  margin: 0 0 20px;
 }
 
 .fba-links {
-    text-align: right;
+  text-align: right;
 }
 
 .fba-links ul li a {
-        color: black;
-    display: block;
-    font-size: 14px;
-    letter-spacing: 0;
-}
-.fba-links ul {
-    list-style: outside none none;
-    padding: 0;
-}
-.fba-links ul li {
-    display: inline-block;
-    margin-left: 28px;
-}
-.fba-copyright p {
-    color: #aaaaaa;
-    line-height: 30px;
+  color: black;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0;
 }
 
+.fba-links ul {
+  list-style: outside none none;
+  padding: 0;
+}
+
+.fba-links ul li {
+  display: inline-block;
+  margin-left: 28px;
+}
+
+.fba-copyright p {
+  color: #aaaaaa;
+  line-height: 30px;
+}
