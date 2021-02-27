@@ -1,0 +1,39 @@
+.works_area {
+  padding-top: 50px!Important;
+  padding-bottom:0px!Important;
+}
+
+.main-menu{
+padding-left:25px!Important;
+}
+
+
+.works_area::before{
+  background:white!Important;
+}
+
+.Smallletter{
+color: black!Important;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+font-style: normal!Important;
+font-size: 20px!Important;
+line-height:40px!Important;
+}
+
+.Bigletter{
+color:#A91E3A;
+ text-align: center;
+ text-decoration: none;
+ text-transform: uppercase;
+font-style: bold!Important;
+font-size: 65px!Important;
+line-height:40px!Important;
+font-weight: bold;
+}
+
+.corefeaturemods{
+padding-top:50px!Important;
+
+}
