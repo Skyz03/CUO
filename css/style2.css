@@ -1,51 +1,53 @@
-.works_area {
-  padding-top: 50px!Important;
-  padding-bottom:0px!Important;
+.padupdown25{
+ padding-top: 25px!Important;
+ padding-bottom: 25px!Important;
+ }
+
+.padupdown50{
+ padding-top: 50px!Important;
+ padding-bottom: 50px!Important;
+ }
+
+.nopadding{
+ padding-top: 0px!Important;
+ padding-bottom: 0px!Important;
+}
+
+
+.slider_area{
+ padding-bottom: 25px!Important;
 }
 
 .main-menu{
-padding-left:25px!Important;
+ padding-left:25px!Important;
 }
-
 
 .works_area::before{
   background:white!Important;
 }
 
 .Smallletter{
-color: black!Important;
+ padding-top:0px!Important;
+ color: black!Important;
  text-align: center!Important;
  text-decoration: none!Important;
  text-transform: uppercase;
-font-style: normal!Important;
-font-size: 20px!Important;
-line-height:40px!Important;
+ font-style: normal!Important;
+ font-size: 20px!Important;
+ line-height:40px!Important;
 }
 
 .Bigletter{
-color:#A91E3A!Important;
+ color:#A91E3A!Important;
  text-align: center!Important;
  text-decoration: none!Important;
  text-transform: uppercase!Important;
-font-style: bold!Important;
-font-size: 65px!Important;
-line-height:40px!Important;
-font-weight: bold!Important;
-}
-
-.corefeaturemods{
-padding-top:50px!Important;
-padding-bottom:35px!Important;
-
-}
-
-.instagram_area{
-padding-top:50px!Important;
-padding-bottom:0px!Important;
+ font-style: bold!Important;
+ font-size: 65px!Important;
+ line-height:40px!Important;
+ font-weight: bold!Important;
 }
 
 .creative_mind_area{
-padding-top:50px!Important;
-padding-bottom:50px!Important;
-background-color:white!Important;
+ background-color:white!Important;
 }
