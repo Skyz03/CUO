@@ -8,6 +8,11 @@
  padding-bottom: 50px!Important;
  }
 
+.padding10
+{
+padding-top: 10px!Important;
+            }
+
 .nopadding{
  padding-top: 0px!Important;
  padding-bottom: 0px!Important;
