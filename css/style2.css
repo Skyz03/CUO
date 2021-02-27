@@ -1,0 +1,115 @@
+.padupdown25{
+ padding-top: 25px!Important;
+ padding-bottom: 25px!Important;
+ }
+
+.padupdown50{
+ padding-top: 50px!Important;
+ padding-bottom: 50px!Important;
+ }
+
+.padding10
+{
+padding-top: 10px!Important;
+            }
+
+.nopadding{
+ padding-top: 0px!Important;
+ padding-bottom: 0px!Important;
+}
+
+
+.slider_area{
+ padding-bottom: 25px!Important;
+}
+
+
+.works_area::before{
+  background:white!Important;
+}
+
+.Smallletter{
+ padding-top:0px!Important;
+ color: black!Important;
+ text-align: center!Important;
+ text-decoration: none!Important;
+ text-transform: uppercase;
+ font-style: normal!Important;
+ font-size: 20px!Important;
+ line-height:40px!Important;
+}
+
+.Bigletter{
+ color:#A91E3A!Important;
+ text-align: center!Important;
+ text-decoration: none!Important;
+ text-transform: uppercase!Important;
+ font-style: bold!Important;
+ font-size: 65px!Important;
+ line-height:40px!Important;
+ font-weight: bold!Important;
+}
+
+.creative_mind_area{
+ background-color:white!Important;
+}
+
+
+
+.footer-section {
+    background-color: #F7F7F7;
+    padding: 60px 0 50px;
+}
+.bg-with-black {
+    position: relative;
+}
+.footer-top-section {
+    margin: 0 0 47px;
+}
+.single-fta > img {
+    margin: 0 0 7px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.single-fta ul.fta-list li, .single-fta ul.fta-list li a {
+    color: black;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+.single-fta ul.fta-list {
+    list-style: outside none none;
+    padding-left: 0;
+}
+.fta-title {
+    color: #A91E3A;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin: 0 0 20px;
+}
+
+.fba-links {
+    text-align: right;
+}
+
+.fba-links ul li a {
+        color: black;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+.fba-links ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.fba-links ul li {
+    display: inline-block;
+    margin-left: 28px;
+}
+.fba-copyright p {
+    color: #aaaaaa;
+    line-height: 30px;
+}
