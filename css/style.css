@@ -1585,13 +1585,13 @@ h3 {
   background-position: center center;
   position: relative;
   top: 75px;
-  margin: 0 125px 0;
 }
 
 @media (max-width: 767px) {
   .slider_area .single_slider {
-    margin: 0 50px 0;
+    background-size: cover;
     height: 350px;
+    top: 75px;
   }
 }
 
