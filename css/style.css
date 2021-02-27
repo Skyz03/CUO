@@ -535,7 +535,7 @@ h3 {
   font-size: 14px;
   font-weight: 500;
   border: 0;
-  border: 1px solid #001D38;
+  border: 1px solid #B6464B;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -545,15 +545,15 @@ h3 {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  background: #001D38;
+  background: #B6464B;
   cursor: pointer;
   letter-spacing: 2px;
 }
 
 /* line 113, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_btn.scss */
 .boxed-btn3-line:hover {
-  color: #001D38 !important;
-  border: 1px solid #001D38;
+  color: #B6464B !important;
+  border: 2px solid #B6464B;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001D38+0,fd8e5e+100 */
   background: #fff;
 }
