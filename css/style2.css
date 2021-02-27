@@ -14,8 +14,8 @@ padding-left:25px!Important;
 
 .Smallletter{
 color: black!Important;
- text-align: center;
- text-decoration: none;
+ text-align: center!Important;
+ text-decoration: none!Important;
  text-transform: uppercase;
 font-style: normal!Important;
 font-size: 20px!Important;
@@ -23,17 +23,29 @@ line-height:40px!Important;
 }
 
 .Bigletter{
-color:#A91E3A;
- text-align: center;
- text-decoration: none;
- text-transform: uppercase;
+color:#A91E3A!Important;
+ text-align: center!Important;
+ text-decoration: none!Important;
+ text-transform: uppercase!Important;
 font-style: bold!Important;
 font-size: 65px!Important;
 line-height:40px!Important;
-font-weight: bold;
+font-weight: bold!Important;
 }
 
 .corefeaturemods{
 padding-top:50px!Important;
+padding-bottom:35px!Important;
 
+}
+
+.instagram_area{
+padding-top:50px!Important;
+padding-bottom:0px!Important;
+}
+
+.creative_mind_area{
+padding-top:50px!Important;
+padding-bottom:50px!Important;
+background-color:white!Important;
 }
