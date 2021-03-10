@@ -4341,7 +4341,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 /* line 98, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_insta.scss */
 .creative_mind_area .creative_info .progressBars .single_bar .progress .progress-bar {
   position: relative;
-  background: #001D38;
+  background: #A91E3A !important;
 }
 
 /* line 101, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_insta.scss */
