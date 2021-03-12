@@ -392,8 +392,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_btn.scss */
 .boxed-btn {
-  background: #fff;
-  color: #131313;
+  background: #B6464B;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Poppins", sans-serif;
@@ -403,16 +402,16 @@ h3 {
   border: 1px solid #001D38;
   letter-spacing: 3px;
   text-align: center;
-  color: #001D38 !important;
+  color: white !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #001D38;
-  color: #fff !important;
-  border: 1px solid #001D38;
+  background: white;
+  color: #B6464B !important;
+  border: 2px solid #B6464B;
 }
 
 /* line 22, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_btn.scss */
@@ -1559,7 +1558,7 @@ h3 {
 /* Section area additional style start*/
 /* line 1, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner_1.jpg);
+  background-image: url(../img/banner/lunch-box.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_slider.scss */
@@ -6571,7 +6570,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 /* line 16, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact.scss */
 .contact-info__icon i, .contact-info__icon span {
-  color: #8f9195;
+  color: #B6464B;
   font-size: 27px;
 }
 
@@ -6580,7 +6579,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
-  color: #2a2a2a;
+  color: #B6464B;
 }
 
 /* line 30, ../../Arafath/CL/Cl November/224. Interior Design/HTML/scss/_contact.scss */
